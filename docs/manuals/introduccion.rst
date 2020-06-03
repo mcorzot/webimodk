@@ -8,9 +8,9 @@
 Introducción
 ============
 
-.. admonition:: Comocimientos previos
+.. admonition:: Conocimientos previos
    
-   Este apartado requiere un conocimiento a nivel de usuario del sistema operativo Android, el más extendido para smartphones y tabletas, así como estar familiarizado con el uso de navegadores de Internet. 
+   Este apartado requiere un conocimiento a nivel de usuario del sistema operativo Android, el más extendido para *smartphones* y tabletas, así como estar familiarizado con el uso de navegadores de Internet.
 
 ¿Qué es Open Data Kit?
 ----------------------
@@ -19,9 +19,9 @@ La recolección de datos sobre el terreno es una tarea fundamental dentro de la 
 
 Tradicionalmente este trabajo se ha realizado rellenando a mano las encuestas y tabulándolas posteriormente. Esta técnica es poco eficiente y son numerosas las posibles fuentes de error desde el momento de recoger la información hasta la publicación de los resultados.
 
-Open Data Kit (ODK) es un conjunto de herramientas informáticas de **código libre** que permiten sistematizar algunas de las tareas que intervienen en todo este proceso facilitando la creación e implementación de las encuestas a través de dispositivos móviles y el procesamiento de las mismas, sustituyendo el uso del papel, ahorrándonos horas de transcripción y, lo más importante, disminuyendo en buena medida posibles errores. Todo esto contribuye a obtener la información necesaria en un tiempo menor y dar una respuesta más rápida y eficaz.
+Open Data Kit (ODK) es un conjunto de herramientas informáticas de **código abierto** que permiten sistematizar algunas de las tareas que intervienen en todo este proceso facilitando la creación e implementación de las encuestas a través de dispositivos móviles y el procesamiento de las mismas, sustituyendo el uso del papel, ahorrándonos horas de transcripción y, lo más importante, disminuyendo en buena medida posibles errores. Todo esto contribuye a obtener la información necesaria en un tiempo menor y dar una respuesta más rápida y eficaz.
 
-ODK comenzó como un proyecto de Google.org, en abril de 2008 y los desarrolladores principales son investigadores del Departamento de Ciencias Computacionales e Ingeniería de la **Universidad de Washington**. En la actualidad está apoyada en una extensa comunidad de usuarios y desarrolladores que contribuyen en el proceso de crecimiento y mejora de esta herramienta. `Open Data Kit <https://opendatakit.org/>`__ y el `Foro ODK <https://forum.opendatakit.org/>`__ permiten estar al tanto de todas las novedades y poder interactuar con la comunidad. También están presentes en las redes sociales `Facebook <https://www.facebook.com/opendatakit>`__ y `Twitter <https://twitter.com/opendatakit>`__.
+ODK comenzó como un proyecto de Google.org, en abril de 2008 y los desarrolladores principales son investigadores del Departamento de Ciencias Computacionales e Ingeniería de la **Universidad de Washington**. En la actualidad está apoyada en una extensa comunidad de usuarios y desarrolladores que contribuyen al crecimiento y mejora de esta herramienta. `Open Data Kit <https://opendatakit.org/>`__ y el `Foro ODK <https://forum.getodk.org/>`__ permiten estar al tanto de todas las novedades y poder interactuar con la comunidad. También están presentes en las redes sociales `Facebook <https://www.facebook.com/opendatakit>`__ y `Twitter <https://twitter.com/opendatakit>`__.
 
 ODK nos permitirá hacer muchos tipos de formularios aplicados a diferentes áreas:
 
@@ -34,13 +34,13 @@ Estos formularios pueden recoger también imágenes, audios, vídeos, geolocaliz
 ODK y ODK-X
 -----------
 
-Una importante evolución de ODK ha dado lugar al denominado ODK-X. Mientras que ODK se considera una herramienta robusta y simple para la realización de encuestas sencillas, compatible con otras herramientas muy utilizadas (Ona, Enketo, Kobo, ELMO) y con una amplia comunidad de usuarios; ODK-X es una herramienta concebida para **flujos de trabajo complejos** permitiendo saltar de un punto a otro de la encuesta, la sincronización de información con el servidor en ambas direcciones y, en definitiva, la **gestion de la información desde el propio dispositivo**.
+Una importante evolución de ODK ha dado lugar al denominado ODK-X. Mientras que ODK se considera una herramienta robusta y simple para la realización de encuestas sencillas, compatible con otras herramientas muy utilizadas (Ona, Enketo, Kobo, ELMO) y con una amplia comunidad de usuarios; ODK-X es una herramienta concebida para **flujos de trabajo complejos** permitiendo saltar de un punto a otro de la encuesta, la sincronización de información con el servidor en ambas direcciones y, en definitiva, la **gestión de la información desde el propio dispositivo**.
 
-Dada la larga trayectoria de las herramientas ODK y su gran rendimiento en la mayoría de los trabajos de recolección de información, esta web se centrará en la explicación de estas herramientas de uso mas general. En cualquier caso, Cruz Roja está explorando las capcidades de ODK-X y sus necesidades de infraestructura tecnológica para poder emplear también en el futuro las herramientas de ODK-X. 
+Dada la larga trayectoria de las herramientas ODK y su gran rendimiento en la mayoría de los trabajos de recolección de información, esta web se centrará en la explicación de estas herramientas de uso más general. En cualquier caso, Cruz Roja está explorando las capacidades de ODK-X y sus necesidades de infraestructura tecnológica para poder emplear también en el futuro las herramientas de ODK-X. 
 
 .. admonition:: Más información 
 
-   Si quieres más información sobre ODK-X y explorar sus posibilidades puedes encontrarla en su apartado correspondiente en la web oficial de Opendatakit: `ODK-X <https://docs.opendatakit.org/odk-x/>`__
+   Si quieres más información sobre ODK-X y explorar sus posibilidades puedes encontrarla en su apartado correspondiente en la web oficial de Open Data Kit: `ODK-X <https://docs.odk-x.org/>`__
 
 Herramientas más utilizadas
 ---------------------------
@@ -66,7 +66,7 @@ Mientras que Build se comunica de forma **unidireccional** con Aggregate para en
 Instalación de ODK Collect
 --------------------------
 
-A continuación vamos a realizar paso a paso la instalación de la aplicación ODK Collect en nuestro smartphone. 
+A continuación vamos a realizar paso a paso la instalación de la aplicación ODK Collect en nuestro *smartphone*. 
 
 Una vez en nuestro dispositivo vamos a **“Play Store”** donde se pueden buscar e instalar las aplicaciones para nuestro dispositivo.
 
@@ -75,7 +75,7 @@ Una vez en nuestro dispositivo vamos a **“Play Store”** donde se pueden busc
 
 .. admonition:: Debes conocer
 
-   Es necesario disponer de una cuenta de Gmail y configurarla adecuadamente para instalar cualquier aplicación del Play Store.
+   Es necesario disponer de una cuenta de Gmail y configurarla adecuadamente para instalar cualquier aplicación de la Play Store.
 
 Utilizando el cuadro superior de búsqueda, escribimos el nombre de la aplicación a instalar: ODK Collect. Observaremos que según escribimos el nombre nos va sugiriendo resultados entre los que se encuentra el nombre de nuestra aplicación. Una vez localizada la aplicación, le damos a “instalar”.
 
@@ -99,7 +99,7 @@ A continuación, utilizando el acceso creado en nuestra pantalla, entramos en la
 .. figure:: /media/collect_conf.jpg
    :align: center
 
-Inicialmente Collect está configurado para el acceso a un **servidor de prueba** de tipo “ODK Aggregate” cuya dirección URL es https://opendatakit.appspot.com y al que es posible el acceso de forma anónima, es decir, no hace falta ni usuario ni contraseña. Deja la configuración tal como está y pulsa el botón “atrás” de tu Smartphone hasta volver a la pantalla inicial de la aplicación.
+Inicialmente Collect está configurado para el acceso a un **servidor de prueba** de tipo “ODK Aggregate” cuya dirección URL es https://opendatakit.appspot.com y al que es posible el acceso de forma anónima, es decir, no hace falta ni usuario ni contraseña. Deja la configuración tal como está y pulsa el botón “atrás” de tu *smartphone* hasta volver a la pantalla inicial de la aplicación.
 
 .. figure:: /media/collect_default_conf.jpg
    :align: center
@@ -216,7 +216,7 @@ Has llegado al final del formulario. Selecciona “Guardar Formulario y Salir”
 Envío de la información al servidor
 -----------------------------------
 
-La información está ahora almacenada en nuestro smartphone. Es el momento de **enviarla al servidor** que reúne las encuestas que se hayan realizado desde diferentes dispositivos. 
+La información está ahora almacenada en nuestro *smartphone*. Es el momento de **enviarla al servidor** que reúne las encuestas que se hayan realizado desde diferentes dispositivos. 
 
 Volvemos a la pantalla principal de la aplicación Collect. En ella podemos ver que tenemos la posibilidad de enviar o editar el formulario que acabamos de rellenar. Le damos a “Enviar Formulario Finalizado”.
 
