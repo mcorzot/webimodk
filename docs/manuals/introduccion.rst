@@ -162,27 +162,27 @@ El siguiente grupo de preguntas es el denominado "Range widgets" que permiten el
 .. figure:: /media/collect_add_range.jpg
    :align: center
 
-El grupo "Image widgets" recoge ejemplos de preguntas relacionadas con la introducción de información de tipo **imagen** como pueden ser una foto, un dibujo o incluso una firma. A continuación se recoge el ejemplo relativo al "Image widget" en la que puede registrarse la fotografía bien usando la cámara del teléfono bien escogiéndola de la memoria de nuestro dispositivo. 
+El grupo "Image widgets" recoge ejemplos de preguntas relacionadas con la introducción de información de tipo **imagen** como pueden ser una foto, un dibujo o incluso una firma. A continuación se recoge el ejemplo relativo al "Image widget" en la que puede registrarse la fotografía, tanto usando la cámara del teléfono como escogiéndola de la memoria de nuestro dispositivo. 
 
 .. figure:: /media/collect_photo.jpg
    :align: center
 
-El siguiente grupo se llama "Media widgets" y permite integrar en la encuesta otras informaciones tipo **multimedia** como pueden ser códigos de barras, sonidos o vídeos, utilizando para ello elementos de nuestro dispositivo como la cámara de fotos, la grabadora de vídeo y la de sonido, o añadiendo ficheros ya disponibles en la memoria del smartphone. Haz una prueba y graba un pequeño vídeo o audio y continúa hasta el siguiente grupo de preguntas. 
+El siguiente grupo se llama "Media widgets" y permite integrar en la encuesta otras informaciones tipo **multimedia** como pueden ser códigos de barras, sonidos o vídeos, utilizando para ello elementos de nuestro dispositivo como la cámara de fotos, la grabadora de vídeo y la de sonido, o añadiendo ficheros ya disponibles en la memoria del *smartphone*. Haz una prueba y graba un pequeño vídeo o audio y continúa hasta el siguiente grupo de preguntas. 
 
 El grupo "Date and time widgets" contiene elementos que nos permiten registrar información de tipo **fecha y hora** en diferentes formatos y calendarios según nuestras necesidades. En el siguiente ejemplo se muestra el registro en una misma pantalla de la fecha y hora.
 
 .. figure:: /media/collect_date_time.jpg
    :align: center
 
-El siguiente grupo es el denominado "GPS widget" que nos permite registrar **coordenadas** utilizando el GPS de nuestro dispositivo y localizar el punto exacto de las observaciones, el camino que hayamos seguido o delimitar una determinada área. A modo de ejemplo, en la pregunta "Geopoint widget" pulsa en "Buscar ubicación" (1). Espera a que el GPS determine nuestra posición sobre el mapa. También es posible seleccionar nuestra posición de forma manual marcando un punto sobre el mapa (2). Una vez realizado le damos a la opción guardar (3) y veremos nuestras coordenadas geográficas en el formulario (4).
+El siguiente grupo es el denominado "GPS widget" que nos permite registrar **coordenadas** utilizando el GPS de nuestro dispositivo y localizar el punto exacto de las observaciones, el camino que hayamos seguido o delimitar un área determinada. A modo de ejemplo, en la pregunta "Geopoint widget" pulsa en "Buscar ubicación" (1). Espera a que el GPS determine nuestra posición sobre el mapa. También es posible seleccionar nuestra posición de forma manual marcando un punto sobre el mapa (2). Una vez realizado le damos a la opción guardar (3) y veremos nuestras coordenadas geográficas en el formulario (4).
 
 .. figure:: /media/collect_gps.jpg
    :align: center
 
 .. admonition:: Debes conocer
 
-   Para disponer de cobertura GPS es necesario estar en un lugar abierto: en el campo en áreas de vegetación no muy densa o en áreas urbanas cerca de las ventanas de los edificios si estamos en el interior. 
-   Activar la ubicación en tu Smartphone no tiene costes, aunque sí incrementa el consumo de la batería.
+   Para disponer de cobertura GPS es necesario estar en un lugar abierto: si estamos en campo abierto, en áreas de vegetación no muy densa. Para áreas urbanas, cerca de las ventanas de los edificios si estamos en el interior. 
+   Activar la ubicación en tu *smartphone* no tiene costes, aunque sí incrementa el consumo de la batería.
 
 En "Select one widgets" podemos encontrar las preguntas en las que sólo es posible **seleccionar una opción** de entre aquellas presentes en la lista facilitada. Desliza la pantalla hacia la izquierda y repasa las múltiples posibilidades utilizando listas, imágenes, menús desplegables, combinación de listas e imágenes, etc. En el siguiente ejemplo se muestra el "Grid select one widget" en el que se puede seleccionar la opción atendiendo a imágenes representativas de las mismas.
  
@@ -228,7 +228,7 @@ En la siguiente pantalla seleccionamos el formulario (1) y le damos a “Enviar 
 .. figure:: /media/collect_send_form2.jpg
    :align: center
 
-La aplicación nos informa del resultado del proceso de carga de nuestros datos en el servidor Pulsa en "De acuerdo" para cerrar la ventana.
+La aplicación nos informa del resultado del proceso de carga de nuestros datos en el servidor. Pulsa en "De acuerdo" para cerrar la ventana.
 
 .. figure:: /media/collect_send_form_results.jpg
    :align: center
@@ -244,7 +244,6 @@ En la pantalla principal podemos ver que ya tenemos un formulario en la sección
 
 .. admonition:: Resumen y próximos pasos
 
-   En este primer apartado hemos visto los aspectos más esenciales de Open Data Kit: en qué consiste, las diferentes herramientas que lo componen y sus relaciones. Asimismo hemos tenido una primera toma de contacto con la herramienta central “odk Collect”, instalando la aplicación en nuestro dispositivo y comprobando sus enormes potencialidades con un formulario de muestra. 
+   En este primer apartado hemos visto los aspectos más esenciales de Open Data Kit: en qué consiste, las diferentes herramientas que lo componen y sus relaciones. Asimismo, hemos tenido una primera toma de contacto con la herramienta central "ODK Collect”, instalando la aplicación en nuestro dispositivo y comprobando sus enormes potencialidades con un formulario de muestra. 
    
    Los siguientes apartados entrarán en detalle en las diferentes herramientas que se han enumerado de forma que seamos capaces de abarcar todo el proceso de recopilación y explotación de la información. 
-   
