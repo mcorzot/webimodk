@@ -10,7 +10,7 @@ Introducción
 
 .. admonition:: Conocimientos previos
    
-   Este apartado requiere un conocimiento a nivel de usuario del sistema operativo Android, el más extendido para *smartphones* y tabletas, así como estar familiarizado con el uso de navegadores de Internet.
+   Este apartado requiere un conocimiento a nivel de usuario/a del sistema operativo Android, el más extendido para *smartphones* y tabletas, así como familiarizarse con el uso de navegadores de Internet.
 
 ¿Qué es Open Data Kit?
 ----------------------
@@ -21,11 +21,11 @@ Tradicionalmente este trabajo se ha realizado rellenando a mano las encuestas y 
 
 Open Data Kit (ODK) es un conjunto de herramientas informáticas de **código abierto** que permiten sistematizar algunas de las tareas que intervienen en todo este proceso facilitando la creación e implementación de las encuestas a través de dispositivos móviles y el procesamiento de las mismas, sustituyendo el uso del papel, ahorrándonos horas de transcripción y, lo más importante, disminuyendo en buena medida posibles errores. Todo esto contribuye a obtener la información necesaria en un tiempo menor y dar una respuesta más rápida y eficaz.
 
-ODK comenzó como un proyecto de Google.org, en abril de 2008 y los desarrolladores principales son investigadores del Departamento de Ciencias Computacionales e Ingeniería de la **Universidad de Washington**. En la actualidad está apoyada en una extensa comunidad de usuarios y desarrolladores que contribuyen al crecimiento y mejora de esta herramienta. `Open Data Kit <https://opendatakit.org/>`__ y el `Foro ODK <https://forum.getodk.org/>`__ permiten estar al tanto de todas las novedades y poder interactuar con la comunidad. También están presentes en las redes sociales `Facebook <https://www.facebook.com/opendatakit>`__ y `Twitter <https://twitter.com/opendatakit>`__.
+ODK comenzó como un proyecto de Google.org, en abril de 2008 y los desarrolladores principales son investigadores del Departamento de Ciencias Computacionales e Ingeniería de la **Universidad de Washington**. En la actualidad está apoyada en una extensa comunidad distribuida en multitud de países que contribuye al crecimiento y mejora de esta herramienta. `Open Data Kit <https://opendatakit.org/>`__ y el `Foro ODK <https://forum.getodk.org/>`__ permiten estar al tanto de todas las novedades y poder interactuar con la comunidad. También están presentes en las redes sociales `Facebook <https://www.facebook.com/opendatakit>`__ y `Twitter <https://twitter.com/opendatakit>`__.
 
 ODK nos permitirá hacer muchos tipos de formularios aplicados a diferentes áreas:
 
-- Registro de actividades, beneficiarios, pacientes, vehículos, puntos de agua, letrinas, préstamo de material, etc.
+- Registro de actividades, beneficiarios/as, pacientes, vehículos, puntos de agua, letrinas, préstamo de material, etc.
 - Encuestas de evaluación y de satisfacción, etc.
 - Evaluaciones en terreno, líneas de base, etc.
 
@@ -34,7 +34,7 @@ Estos formularios pueden recoger también imágenes, audios, vídeos, geolocaliz
 ODK y ODK-X
 -----------
 
-Una importante evolución de ODK ha dado lugar al denominado ODK-X. Mientras que ODK se considera una herramienta robusta y simple para la realización de encuestas sencillas, compatible con otras herramientas muy utilizadas (Ona, Enketo, Kobo, ELMO) y con una amplia comunidad de usuarios; ODK-X es una herramienta concebida para **flujos de trabajo complejos** permitiendo saltar de un punto a otro de la encuesta, la sincronización de información con el servidor en ambas direcciones y, en definitiva, la **gestión de la información desde el propio dispositivo**.
+Una importante evolución de ODK ha dado lugar al denominado ODK-X. Mientras que ODK se considera una herramienta robusta y simple para la realización de encuestas sencillas, compatible con otras herramientas muy utilizadas (Ona, Enketo, Kobo, ELMO) y con una amplia comunidad de usuarios/as; ODK-X es una herramienta concebida para **flujos de trabajo complejos** permitiendo saltar de un punto a otro de la encuesta, la sincronización de información con el servidor en ambas direcciones y, en definitiva, la **gestión de la información desde el propio dispositivo**.
 
 Dada la larga trayectoria de las herramientas ODK y su gran rendimiento en la mayoría de los trabajos de recolección de información, esta web se centrará en la explicación de estas herramientas de uso más general. En cualquier caso, Cruz Roja está explorando las capacidades de ODK-X y sus necesidades de infraestructura tecnológica para poder emplear también en el futuro las herramientas de ODK-X. 
 
@@ -109,7 +109,7 @@ Obtención de un formulario en blanco
 
 Ahora estamos en disposición de descargar un formulario en blanco de entre aquellos que están en el servidor de pruebas. En la pantalla principal pulsa en “obtener formulario en blanco” (1).
 
-La aplicación valida en este momento que el servidor, usuario y contraseñas introducidos anteriormente son correctos y ofrece una lista de los formularios disponibles. Selecciona “All widgets” (2) y pulsa en “obtener los seleccionados” (3).
+La aplicación valida en este momento que el servidor, usuario y contraseña introducidos anteriormente son correctos y ofrece una lista de los formularios disponibles. Selecciona “All widgets” (2) y pulsa en “obtener los seleccionados” (3).
 
 Se trata de un formulario demostrativo de los diferentes tipos de preguntas disponibles en ODK. Aunque se encuentra en inglés nos puede dar una primera idea del tipo de información que se puede recopilar y de la potencialidad de esta herramienta.
 
@@ -206,7 +206,7 @@ El último tipo de pregunta que se nos muestra es el "Trigger widget" que permit
 
 .. admonition:: Presta atención
 
-   En el formulario que estamos recorriendo puedes dejar sin contestar las preguntas. Sin embargo, es posible obligar al usuario a dar respuesta a las preguntas para seguir adelante con la encuesta e incluso validar sobre la marcha la coherencia de las mismas.
+   En el formulario que estamos recorriendo puedes dejar sin contestar las preguntas. Sin embargo, es posible obligar a dar respuesta a las preguntas para seguir adelante con la encuesta e incluso validar sobre la marcha la coherencia de las mismas.
   
 Has llegado al final del formulario. Selecciona “Guardar Formulario y Salir” para **terminar la encuesta** y volver a la pantalla principal de la aplicación.
 
