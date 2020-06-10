@@ -93,7 +93,7 @@ Manejo de formularios
 
 Permite establecer opciones por defecto para que se realicen de acuerdo con el estado de los formularios ya sea a la hora del envío o del rellenado.
 
-Respecto al envío, las opciones más relevantes son el "Envío Automático" (1), que permite **automatizar el envío** de los formularios una vez sean completados, ya sea usando una red de datos o wifi, y el "Eliminar después de enviar" (2) que permite **eliminar los formularios** de forma automática una vez se han enviado.
+Respecto al envío, las opciones más relevantes son el :guilabel:`Envío Automático` (1), que permite **automatizar el envío** de los formularios una vez sean completados, ya sea usando una red de datos o wifi, y el :guilabel:`Eliminar después de enviar` (2) que permite **eliminar los formularios** de forma automática una vez se han enviado.
 
 En relación al rellenado de formularios son importantes el **manejo de restricciones** (3) que configura el momento el que se aplican los controles y validaciones sobre la información introducida, y el **formato y tamaño de vídeos y fotos** que debe tenerse en cuenta, sobre todo, si hay condicionantes de cara a la transmisión de la información.
 
@@ -124,7 +124,7 @@ En opciones de administrador es donde realmente se va a poder configurar la apli
 Se pueden dar distintas situaciones a la hora de utilizar Collect. Por ejemplo, los dispositivos pueden ser propiedad de los/as encuestadores/as o se les puede haber prestado para la recolección de datos; o también pueden ser usuarios/as con diferentes niveles de conocimiento sobre ODK.
 De esta forma, nos puede interesar o no **tener habilitados más o menos menús y opciones**; en los dispositivos se queda una copia de los formularios, en caso de pérdida en el servidor se podrían recuperar; pero si los dispositivos no pertenecen a Cruz Roja, puede que no nos interese que se queden datos sensibles guardados.
 
-La pantalla de opciones de administrador muestra las siguientes opciones: 
+La pantalla de *Opciones de administrador* muestra las siguientes opciones: 
 
 - Configuración de la aplicación (1).
 - Establecer una contraseña para acceder a este menú de administrador (2).
@@ -145,23 +145,23 @@ De entre las anteriores, las opciones más destacadas son las siguientes:
 
 .. admonition:: Práctica
 
-	Entra en esta opción e introduce una contraseña que puedas recordar fácilmente. Luego, regresa a la pantalla principal y accede de nuevo a opciones de administrador. Deberá solicitarte la contraseña. Para deshabilitar esta opción, selecciona de nuevo “contraseña de administrador” y déjala en blanco.
+	Entra en esta opción e introduce una contraseña que puedas recordar fácilmente. Luego, regresa a la pantalla principal y accede de nuevo a :guilabel:`Opciones de administrador`. Deberá solicitarte la contraseña. Para deshabilitar esta opción, selecciona de nuevo :guilabel:`Contraseña de administrador` y déjala en blanco.
 
-- La posibilidad de crear o leer un **código QR** que permita exportar o importar la configuración de un dispositivo a otro. El código QR generado permite su lectura desde otro dispositivo a través de nuestra cámara de fotos, utilizando la opción "Escanear código de otro dispositivo".
+- La posibilidad de crear o leer un **código QR** que permita exportar o importar la configuración de un dispositivo a otro. El código QR generado permite su lectura desde otro dispositivo a través de nuestra cámara de fotos, utilizando la opción :guilabel:`Escanear código de otro dispositivo`.
 
 .. figure:: /media/opcionesadmin_codigoqr.jpg
    :align: center
 
-- Las opciones que puede ver el usuario en el menú principal son las que se muestran en la siguiente imagen. 	
+- Las opciones que pueden verse en el **menú principal de ajustes** son las que se muestran en la siguiente imagen.
 
 .. figure:: /media/opcionesprincipal.jpg
    :align: center
 
 .. admonition:: Práctica
 
-	Desmarca la opción “enviar formulario finalizado” y observa cómo cambia la pantalla principal. Observa que, en caso de querer mantener este cambio, deberías activar también “auto envío” en “opciones de configuración\gestión del formulario”, automatizando de esta forma el proceso.
+	Desmarca la opción :guilabel:`Enviar formulario finalizado` y observa cómo cambia la pantalla principal. Observa que, en caso de querer mantener este cambio, deberías activar también :guilabel:`Envío automático` en “opciones de configuración\gestión del formulario”, automatizando de esta forma el proceso.
 
-- Las posibilidades de personalizar las opciones a las que el usuario podrá acceder son innumerables, abarcando prácticamente todas las existentes en la aplicación. A continuación se muestran la lista de todas ellas tal como aparecen en el apartado "opciones de usuario".
+- Las posibilidades de personalizar las opciones a las que el usuario podrá acceder son innumerables, abarcando prácticamente todas las existentes en la aplicación. A continuación se muestra la lista de todas ellas tal como aparecen en el apartado :guilabel:`Opciones de usuario`.
 
 .. figure:: /media/opcionesusuario.jpg
    :align: center
