@@ -131,12 +131,12 @@ En esta primera pantalla no hay que rellenar nada, simplemente es de carácter *
 .. figure:: /media/collect_note.jpg
    :align: center
 
-El formulario nos ofrece ahora un elemento de tipo **texto**. Se trata de una pregunta titulada "String widget" a rellenar con una palabra o conjunto de palabras en el espacio en blanco (1) usando para ello el teclado que se nos despliega en la parte inferior (2). Escribe cualquier cosa y desliza la pantalla hacia la izquierda para pasar a la siguiente pregunta.
+El formulario nos ofrece ahora un elemento de tipo **texto**. Se trata de una pregunta titulada :guilabel:`String widget` a rellenar con una palabra o conjunto de palabras en el espacio en blanco (1) usando para ello el teclado que se nos despliega en la parte inferior (2). Escribe cualquier cosa y desliza la pantalla hacia la izquierda para pasar a la siguiente pregunta.
  
 .. figure:: /media/collect_add_text.jpg
    :align: center
 
-En la siguiente pantalla encontramos otra pregunta de tipo texto, aunque con aspecto numérico. ODK permite jugar con diferentes apariencias para introducir la información. Observa que bajo el enunciado de la pregunta que aparece en negrita "String number widget"  (1) aparece en cursiva un pequeño texto aclaratorio sobre la pregunta (2). Este es un recurso de ODK para facilitar el desarrollo y la comprensión de la encuesta. Utilizando el teclado, introduce cualquier número. 
+En la siguiente pantalla encontramos otra pregunta de tipo texto, aunque con aspecto numérico. ODK permite jugar con diferentes apariencias para introducir la información. Observa que bajo el enunciado de la pregunta que aparece en negrita :guilabel:`String number widget` (1) aparece en cursiva un pequeño texto aclaratorio sobre la pregunta (2). Este es un recurso de ODK para facilitar el desarrollo y la comprensión de la encuesta. Utilizando el teclado, introduce cualquier número. 
 
 .. figure:: /media/collect_add_number_options.jpg
    :align: center
@@ -145,36 +145,36 @@ En la siguiente pantalla encontramos otra pregunta de tipo texto, aunque con asp
 
    Ya has comprobado que para **pasar de una pregunta a otra** basta con deslizar la pantalla hacia la izquierda. Comprueba que también es posible **retroceder a una pregunta anterior** deslizando la pantalla hacia la derecha. 
 
-A continuación, progresa a lo largo del formulario pasando diferentes preguntas hasta llegar a la relativa a "Ex printer widget". Habrás observado que ésta y las preguntas anteriores tenían un encabezado común denominado "Text widgets". Esto significa que las preguntas están integradas en un **grupo** lo que permite darles un tratamiento homogéneo dentro del formulario.
+A continuación, progresa a lo largo del formulario pasando diferentes preguntas hasta llegar a la relativa a :guilabel:`Ex printer widget`. Habrás observado que ésta y las preguntas anteriores tenían un encabezado común denominado :guilabel:`Text widgets`. Esto significa que las preguntas están integradas en un **grupo** lo que permite darles un tratamiento homogéneo dentro del formulario.
 
 .. figure:: /media/collect_group.jpg
    :align: center
 
-Pasa a la siguiente pregunta denominada "Integer widget" y que forma parte del grupo "Numerical widgets". En esta pregunta se nos pide introducir una respuesta de tipo **numérico**. Introduce cualquier número y desliza la pantalla hacia la izquierda.
+Pasa a la siguiente pregunta denominada :guilabel:`Integer widget` y que forma parte del grupo :guilabel:`Numerical widgets`. En esta pregunta se nos pide introducir una respuesta de tipo **numérico**. Introduce cualquier número y desliza la pantalla hacia la izquierda.
 
 .. figure:: /media/collect_add_number.jpg
    :align: center
 
-Observa las sucesivas preguntas situadas en el grupo "Numerical widgets" e interactúa con algunas de ellas, observando cómo reflejan la información introducida con el teclado. 
+Observa las sucesivas preguntas situadas en el grupo :guilabel:`Numerical widgets` e interactúa con algunas de ellas, observando cómo reflejan la información introducida con el teclado. 
 
-El siguiente grupo de preguntas es el denominado "Range widgets" que permiten elegir determinados valores dentro de los **rangos** sugeridos. Observa el ejemplo para "Range integer widget" y cómo puedes seleccionar el valor entero que desees en el rango situado entre 1 y 10. Revisa los ejemplos posteriores hasta llegar al siguiente grupo.
+El siguiente grupo de preguntas es el denominado :guilabel:`Range widgets` que permiten elegir determinados valores dentro de los **rangos** sugeridos. Observa el ejemplo para :guilabel:`Range integer widget` y cómo puedes seleccionar el valor entero que desees en el rango situado entre 1 y 10. Revisa los ejemplos posteriores hasta llegar al siguiente grupo.
 
 .. figure:: /media/collect_add_range.jpg
    :align: center
 
-El grupo "Image widgets" recoge ejemplos de preguntas relacionadas con la introducción de información de tipo **imagen** como pueden ser una foto, un dibujo o incluso una firma. A continuación se recoge el ejemplo relativo al "Image widget" en la que puede registrarse la fotografía, tanto usando la cámara del teléfono como escogiéndola de la memoria de nuestro dispositivo. 
+El grupo :guilabel:`Image widgets` recoge ejemplos de preguntas relacionadas con la introducción de información de tipo **imagen** como pueden ser una foto, un dibujo o incluso una firma. A continuación se recoge el ejemplo relativo al :guilabel:`Image widget` en la que puede registrarse la fotografía, tanto usando la cámara del teléfono como escogiéndola de la memoria de nuestro dispositivo. 
 
 .. figure:: /media/collect_photo.jpg
    :align: center
 
-El siguiente grupo se llama "Media widgets" y permite integrar en la encuesta otras informaciones tipo **multimedia** como pueden ser códigos de barras, sonidos o vídeos, utilizando para ello elementos de nuestro dispositivo como la cámara de fotos, la grabadora de vídeo y la de sonido, o añadiendo ficheros ya disponibles en la memoria del *smartphone*. Haz una prueba y graba un pequeño vídeo o audio y continúa hasta el siguiente grupo de preguntas. 
+El siguiente grupo se llama :guilabel:`Media widgets` y permite integrar en la encuesta otras informaciones tipo **multimedia** como pueden ser códigos de barras, sonidos o vídeos, utilizando para ello elementos de nuestro dispositivo como la cámara de fotos, la grabadora de vídeo y la de sonido, o añadiendo ficheros ya disponibles en la memoria del *smartphone*. Haz una prueba y graba un pequeño vídeo o audio y continúa hasta el siguiente grupo de preguntas. 
 
-El grupo "Date and time widgets" contiene elementos que nos permiten registrar información de tipo **fecha y hora** en diferentes formatos y calendarios según nuestras necesidades. En el siguiente ejemplo se muestra el registro en una misma pantalla de la fecha y hora.
+El grupo :guilabel:`Date and time widgets` contiene elementos que nos permiten registrar información de tipo **fecha y hora** en diferentes formatos y calendarios según nuestras necesidades. En el siguiente ejemplo se muestra el registro en una misma pantalla de la fecha y hora.
 
 .. figure:: /media/collect_date_time.jpg
    :align: center
 
-El siguiente grupo es el denominado "GPS widget" que nos permite registrar **coordenadas** utilizando el GPS de nuestro dispositivo y localizar el punto exacto de las observaciones, el camino que hayamos seguido o delimitar un área determinada. A modo de ejemplo, en la pregunta "Geopoint widget" pulsa en "Buscar ubicación" (1). Espera a que el GPS determine nuestra posición sobre el mapa. También es posible seleccionar nuestra posición de forma manual marcando un punto sobre el mapa (2). Una vez realizado le damos a la opción guardar (3) y veremos nuestras coordenadas geográficas en el formulario (4).
+El siguiente grupo es el denominado :guilabel:`GPS widget` que nos permite registrar **coordenadas** utilizando el GPS de nuestro dispositivo y localizar el punto exacto de las observaciones, el camino que hayamos seguido o delimitar un área determinada. A modo de ejemplo, en la pregunta :guilabel:`Geopoint widget` pulsa en :guilabel:`Buscar ubicación` (1). Espera a que el GPS determine nuestra posición sobre el mapa. También es posible seleccionar nuestra posición de forma manual marcando un punto sobre el mapa (2). Una vez realizado le damos a la opción guardar (3) y veremos nuestras coordenadas geográficas en el formulario (4).
 
 .. figure:: /media/collect_gps.jpg
    :align: center
@@ -184,22 +184,22 @@ El siguiente grupo es el denominado "GPS widget" que nos permite registrar **coo
    Para disponer de cobertura GPS es necesario estar en un lugar abierto: si estamos en campo abierto, en áreas de vegetación no muy densa. Para áreas urbanas, cerca de las ventanas de los edificios si estamos en el interior. 
    Activar la ubicación en tu *smartphone* no tiene costes, aunque sí incrementa el consumo de la batería.
 
-En "Select one widgets" podemos encontrar las preguntas en las que sólo es posible **seleccionar una opción** de entre aquellas presentes en la lista facilitada. Desliza la pantalla hacia la izquierda y repasa las múltiples posibilidades utilizando listas, imágenes, menús desplegables, combinación de listas e imágenes, etc. En el siguiente ejemplo se muestra el "Grid select one widget" en el que se puede seleccionar la opción atendiendo a imágenes representativas de las mismas.
+En :guilabel:`Select one widgets` podemos encontrar las preguntas en las que sólo es posible **seleccionar una opción** de entre aquellas presentes en la lista facilitada. Desliza la pantalla hacia la izquierda y repasa las múltiples posibilidades utilizando listas, imágenes, menús desplegables, combinación de listas e imágenes, etc. En el siguiente ejemplo se muestra el :guilabel:`Grid select one widget` en el que se puede seleccionar la opción atendiendo a imágenes representativas de las mismas.
  
 .. figure:: /media/collect_select_list.jpg
    :align: center
 
-El grupo "Select Multi Widgets" agrupa diferentes modelos de preguntas que permiten **seleccionar varias opciones** como respuesta para una pregunta. Observa el siguiente ejemplo denominado "Multi select widget" que es la versión más simple de todas las existentes. Continúa avanzando por el formulario para ver otros modelos de preguntas de selección múltiple.
+El grupo :guilabel:`Select Multi Widgets` agrupa diferentes modelos de preguntas que permiten **seleccionar varias opciones** como respuesta para una pregunta. Observa el siguiente ejemplo denominado :guilabel:`Multi select widget` que es la versión más simple de todas las existentes. Continúa avanzando por el formulario para ver otros modelos de preguntas de selección múltiple.
 
 .. figure:: /media/collect_select_multiple.jpg
    :align: center
 
-Llegando a los últimos tipos de pregunta se nos presenta la pregunta "Rank widget" que nos permite establecer un **orden de preferencia** entre las diferentes opciones que se plantean. Una vez seleccionas "Ranking the items" (1) tienes que cambiar el orden de las respuestas (2), manteniendo ligeramente pulsadas las opciones y arrastrándolas posteriormente hacia el lugar deseado.
+Llegando a los últimos tipos de pregunta se nos presenta la pregunta :guilabel:`Rank widget` que nos permite establecer un **orden de preferencia** entre las diferentes opciones que se plantean. Una vez seleccionas :guilabel:`Ranking the items` (1) tienes que cambiar el orden de las respuestas (2), manteniendo ligeramente pulsadas las opciones y arrastrándolas posteriormente hacia el lugar deseado.
 
 .. figure:: /media/collect_rank.jpg
    :align: center
 
-El último tipo de pregunta que se nos muestra es el "Trigger widget" que permite **confirmar** que se ha cumplido (o no) determinadas condiciones en el desarrollo de la encuesta. Marca la casilla de verificación y desliza la pantalla hacia la izquierda.
+El último tipo de pregunta que se nos muestra es el :guilabel:`Trigger widget` que permite **confirmar** que se ha cumplido (o no) determinadas condiciones en el desarrollo de la encuesta. Marca la casilla de verificación y desliza la pantalla hacia la izquierda.
 
 .. figure:: /media/collect_trigger.jpg
    :align: center
@@ -228,7 +228,7 @@ En la siguiente pantalla seleccionamos el formulario (1) y le damos a “Enviar 
 .. figure:: /media/collect_send_form2.jpg
    :align: center
 
-La aplicación nos informa del resultado del proceso de carga de nuestros datos en el servidor. Pulsa en "De acuerdo" para cerrar la ventana.
+La aplicación nos informa del resultado del proceso de carga de nuestros datos en el servidor. Pulsa en :guilabel:`De acuerdo` para cerrar la ventana.
 
 .. figure:: /media/collect_send_form_results.jpg
    :align: center
@@ -240,10 +240,12 @@ En la pantalla principal podemos ver que ya tenemos un formulario en la sección
 
 .. admonition:: Práctica
 
-   Repite el proceso de "Llenar un nuevo formulario" y familiarízate con el manejo de Collect y con las diferentes tipos de preguntas que se pueden configurar.
+   Repite el proceso de :guilabel:`Llenar un nuevo formulario` y familiarízate con el manejo de Collect y con las diferentes tipos de preguntas que se pueden configurar.
 
-.. admonition:: Resumen y próximos pasos
+Resumen y próximos pasos
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-   En este primer apartado hemos visto los aspectos más esenciales de Open Data Kit: en qué consiste, las diferentes herramientas que lo componen y sus relaciones. Asimismo, hemos tenido una primera toma de contacto con la herramienta central "ODK Collect”, instalando la aplicación en nuestro dispositivo y comprobando sus enormes potencialidades con un formulario de muestra. 
-   
-   Los siguientes apartados entrarán en detalle en las diferentes herramientas que se han enumerado de forma que seamos capaces de abarcar todo el proceso de recopilación y explotación de la información. 
+En este primer apartado hemos visto los aspectos más esenciales de Open Data Kit: en qué consiste, las diferentes herramientas que lo componen y sus relaciones.
+Asimismo, hemos tenido una primera toma de contacto con la herramienta ODK Collect, instalando la aplicación en nuestro dispositivo y comprobando sus enormes potencialidades con un formulario de muestra. 
+
+Los siguientes apartados entrarán en detalle en las diferentes herramientas que se han enumerado de forma que seamos capaces de abarcar todo el proceso de recopilación y explotación de la información. 
