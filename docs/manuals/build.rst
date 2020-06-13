@@ -1,28 +1,30 @@
-Build
-=====
+ODK Build
+=========
 
 .. admonition:: Conocimientos previos
 
-	Para la comprensión de este apartado es necesario conocer de forma básica qué es Open Data Kit y cómo funciona la aplicación Collect, tanto a nivel de configuración como de gestión y cumplimentación de formularios. 
+	Para la comprensión de este apartado es necesario conocer de forma básica qué es Open Data Kit y cómo funciona la aplicación ODK Collect, tanto a nivel de configuración como de gestión y cumplimentación de formularios. 
 	
 	Asimismo es necesario tener conocimientos básicos sobre la navegación y funcionamiento de aplicaciones web.  
 
 ¿Qué es ODK Build?
 ------------------
 
-Build es una herramienta que permite la creación de formularios de Open Data Kit.  Mediante un sencillo interface pueden diseñarse las diferentes preguntas y posibles respuestas así como añadir diferentes tipos de material audiovisual. 
+Build es una herramienta que permite la creación de formularios de Open Data Kit.
+Mediante una sencilla interfaz pueden diseñarse las diferentes preguntas y posibles respuestas así como añadir diferentes tipos de material audiovisual. 
 
-Originalmente estaba disponible como una herramienta en línea accesible a través de la url: http://build.opendatakit.org/ con las ventajas de su accesibilidad y disponibilidad de la información en cualquier lugar del mundo. Más recientemente se ha creado una versión offline descargable desde el mismo sitio web, que permite superar las limitaciones derivadas de la dificultad de acceso a Internet en determinados lugares y circunstancias.
+Originalmente estaba disponible como una herramienta en línea accesible a través de la url: https://build.getodk.org/ con las ventajas de su accesibilidad y disponibilidad de la información en cualquier lugar del mundo.
+Más recientemente se ha creado una versión offline descargable desde el mismo sitio web, que permite superar las limitaciones derivadas de la dificultad de acceso a Internet en determinados lugares y circunstancias.
 
 El objetivo de este apartado es familiarizarnos con sus funciones y características principales de forma que podamos generar nuestro primer formulario.
 
 .. admonition:: Recuerda
 
-	Aunque Build presenta limitaciones en el diseño de los formularios respecto a Excel, es una herramienta muy efectiva para el diseño de formularios sencillos y, sobre todo, para todas las personas que se estén iniciando en el mundo de ODK. 
+	Aunque Build presenta limitaciones en el diseño de los formularios respecto a Microsoft Excel, es una herramienta muy efectiva para el diseño de formularios sencillos y, sobre todo, para todas las personas que se estén iniciando en el mundo de ODK. 
 
 .. admonition:: Recuerda
 
-	Además de Build y Collect, la otra gran pieza de ODK es el servidor al que conectaremos para descargar los formularios en blanco y almacenar los ya completados. Ese servidor puede ser de tipo Aggregate o de tipo Google Drive.
+	Además de Build y Collect, la otra gran pieza de ODK es el servidor al que conectaremos para descargar los formularios en blanco y almacenar los ya completados. Ese servidor puede ser de tipo ODK Aggregate o de tipo Google Drive.
 
 Tipos de datos
 --------------
@@ -31,7 +33,9 @@ Antes de empezar a entender cómo funciona la herramienta, necesitamos entender 
 
 ¿Qué quiere decir esto?
 
-En un formulario o encuesta, vamos a realizar una serie de preguntas. Cada una de estas preguntas tendrá diferentes tipos de respuesta, es decir, a una determinada pregunta y según cómo esté descrita, la persona que grabe las respuestas tendrá que hacerlo con un texto, con un número, con una fecha, una fotografía, etc. El formato en el que queremos que nos respondan, es el tipo de dato.
+En un formulario o encuesta, vamos a realizar una serie de preguntas.
+Cada una de estas preguntas tendrá diferentes tipos de respuesta, es decir, a una determinada pregunta y según cómo esté descrita, la persona que grabe las respuestas tendrá que hacerlo con un texto, con un número, con una fecha, una fotografía, etc.
+El formato en el que queremos que nos respondan, es el tipo de dato.
 
 A continuación se muestra una tabla con los tipos de datos que nos vamos a encontrar, su descripción, y un ejemplo de pregunta cuya respuesta sería ese tipo de dato.
 
@@ -49,41 +53,41 @@ A continuación se muestra una tabla con los tipos de datos que nos vamos a enco
      - Se introduce un número. Se puede elegir que la respuesta sea un número entero o decimal. Aparece el teclado de números
      - ¿Cuántos años tienes?
    * - Date/Time
-     - Se introduce una fecha y/u hora en un formato de calendario y/o reloj. Se puede elegir que la respuesta sea una fecha completa, año, año y mes y fecha completa y hora
+     - Se introduce una fecha y/u hora en un formato de calendario o reloj, respectivamente. Se puede elegir que la respuesta sea una fecha completa, año, año y mes, y fecha completa y hora
      - ¿En qué año naciste?
    * - Time
      - Se introduce una hora en formato de reloj digital
      - ¿A qué hora es la distribución?
    * - Location
-     - Se graban unas coordenadas geográficas. La respuesta puede ser un punto, una serie de puntos o una forma. Se puede recoger con el GPS por defecto, señalándolo en el mapa o de forma manual
+     - Se graban unas coordenadas geográficas. La respuesta puede ser un punto, una serie de puntos o un área. Se puede recoger con el GPS por defecto, señalándolo en el mapa o de forma manual
      - Registra tu posición actual
    * - Media
-     - Se puede hacer o elegir una fotografía, un audio o un video
+     - Se puede hacer o elegir una fotografía, un audio o un vídeo
      - Haz una foto de la instalación
    * - Barcode
      - Se escanea un código de barras o código QR. Es necesario tener un programa instalado en el dispositivo para este propósito
      - Escanea el código de barras de la tarjeta del beneficiario
    * - Choose One
-     - Se puede elegir una opción de las posibilidades que nos den
+     - Se puede elegir una sola opción de las posibilidades que nos den
      - Selecciona el género del o de la beneficiario/a: masculino, femenino, desconocido
    * - Select Multiple
      - Se puede elegir una o varias opciones de las posibilidades que nos den
      - Selecciona las necesidades más urgentes: agua, comida, refugio, dinero
    * - Metadata
-     - Este tipo de dato no tiene una pregunta en el formulario, si no que se graba por defecto
+     - Este tipo de dato no tiene una pregunta en el formulario, sino que envía al servidor con un valor por defecto
      - ID del dispositivo, hora de comienzo y/o final de la encuesta, fecha, nombre de usuario, ID del suscriptor, número de serie de la SIM, número de teléfono
 
 .. admonition:: Práctica
 	
 	Piensa con detenimiento a qué tipo de dato corresponderían las respuestas a las siguientes preguntas:
 	
-	- La fecha de nacimiento.
+	- La fecha de nacimiento
 	- La foto de la persona beneficiaria
-	- Indica que días de la semana trabajas: L, M, MX, J, V, S, D
-	- ¿Has recibido ayuda de Cruz Roja Española anteriormente?: Si, No
+	- Indica qué días de la semana trabajas: L, M, MX, J, V, S, D
+	- ¿Has recibido ayuda de Cruz Roja Española anteriormente? Sí, No
 	- Indica tu altura. 
 	- Indica el número de voluntarios/as que han participado en la actividad.
-	- Indica tu nivel de satisfacción con las jornadas: Muysatisfecho/a, Satisfecho/a, Poco Satisfecho/a, Nada Satisfecho/a
+	- Indica tu nivel de satisfacción con las jornadas: Muy satisfecho/a, Satisfecho/a, Poco satisfecho/a, Nada satisfecho/a
 	- ¿En qué localidad se está llevando a cabo esta encuesta?
 	- ¿De qué provincia procedes? Segovia, Toledo, Madrid, Ávila, Otros
 	- ¿Cuántos miembros tiene la familia? 
@@ -91,15 +95,16 @@ A continuación se muestra una tabla con los tipos de datos que nos vamos a enco
 Crear una cuenta en Build
 -------------------------
 
-A continuación se va a ver cómo crear una cuenta en Build. Para ello se requiere tener una conexión a Internet.
+A continuación se va a ver cómo crear una cuenta en Build.
+Para ello se requiere tener una conexión a Internet.
 
-Internet Explorer limita algunas funcionalidades, por esta razón se recomienda utilizar uno de los siguientes navegadores de Internet:
+Internet Explorer impide algunas funcionalidades, por esta razón se recomienda utilizar uno de los siguientes navegadores de Internet:
     • Google Chrome (https://www.google.es/chrome/browser/desktop/) 
     • Firefox (https://www.mozilla.org/es-ES/firefox/new/) 
 
-En el navegador vamos a la siguiente página: http://build.opendatakit.org/
+En el navegador vamos a la siguiente página: https://build.getodk.org/
 
-Al entrar, nos sale la siguiente pantalla: si estamos registrados podemos introducir el usuario y la contraseña, pero la primera vez tendremos que hacer clic en “Dont’t yet have an account?”:
+Al entrar, nos sale la siguiente pantalla: si estamos registrados podemos introducir el usuario y la contraseña, pero la primera vez tendremos que hacer clic en :guilabel:`Dont’t yet have an account?`
 
 .. figure:: /media/build_signin.jpg
    :align: center
