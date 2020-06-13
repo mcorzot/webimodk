@@ -159,27 +159,29 @@ De entre las anteriores, las opciones más destacadas son las siguientes:
 
 .. admonition:: Práctica
 
-	Desmarca la opción :guilabel:`Enviar formulario finalizado` y observa cómo cambia la pantalla principal. Observa que, en caso de querer mantener este cambio, deberías activar también :guilabel:`Envío automático` en “opciones de configuración\gestión del formulario”, automatizando de esta forma el proceso.
+	Desmarca la opción :guilabel:`Enviar formulario finalizado` y observa cómo cambia la pantalla principal. Observa que, en caso de querer mantener este cambio, deberías activar también :guilabel:`Envío Automático` en :guilabel:`Cambiar de configuración` / :guilabel:`Manejo de formularios`, automatizando de esta forma el proceso.
 
-- Las posibilidades de personalizar las opciones a las que el usuario podrá acceder son innumerables, abarcando prácticamente todas las existentes en la aplicación. A continuación se muestra la lista de todas ellas tal como aparecen en el apartado :guilabel:`Opciones de usuario`.
+- Las posibilidades de personalizar las opciones a las que los/las usuarios/as podrán acceder son innumerables, abarcando prácticamente todas las existentes en la aplicación. A continuación se muestra la lista de todas ellas tal como aparecen en el apartado :guilabel:`Ajustes de usuario`.
 
 .. figure:: /media/opcionesusuario.jpg
    :align: center
 
 .. admonition:: Práctica
 
-	Desmarca alguna de las "opciones de usuario" anteriores y observa que deben desaparecer cuando vuelves a su apartado correspondiente.
+	Desmarca alguna de las :guilabel:`Opciones de usuario` anteriores y observa que han desaparecido cuando vuelves a su apartado correspondiente.
  
-- Las opciones que puede tener el usuario disponibles al rellenar formularios pueden configurarse en la siguiente pantalla. Destaca el acceso a "cambiar la configuración" (1) y a "cambiar el idioma" (2) entre los disponibles para el formulario.
+- Las opciones que puede disponibles al rellenar formularios pueden configurarse en la siguiente pantalla. Destaca el acceso a :guilabel:`Cambiar la configuración` (1) y a :guilabel:`Cambiar el idioma` (2) entre los disponibles para el formulario.
 
 .. figure:: /media/opcionesentryform.jpg
    :align: center
 
 .. admonition:: Recuerda
 
-	Al finalizar todas las pruebas vuelve a “opciones de administrador” y dale a “resetear” para volver a dejar todos los valores por defecto.
+	Al finalizar todas las pruebas vuelve a :guilabel:`Opciones de administrador` y dale a :guilabel:`Restablecer aplicación` para volver a dejar todos los valores por defecto.
 
-.. admonition:: Resumen y próximo pasos
+Resumen y próximo pasos
+^^^^^^^^^^^^^^^^^^^^^^^
 
-	En este apartado hemos recorrido las opciones de configuración Collect, que hacen de esta aplicación una potente herramienta para la recolección de información mediante dispositivos móviles, tanto para usuarios avanzados como para personas con menos habilidad en el manejo de smartphones o tabletas. Collect permite personalizar aspectos muy relevantes de la configuración y de la apariencia e incluso la posibilidad de replicarla de unos dispositivos a otros. 
-	Una vez familiarizados con el manejo de Collect, en las siguientes unidades se entrará ya en la creación de nuestros propios formularios y su visualización a través de nuestros dispositivos. 
+En este apartado hemos recorrido las opciones de configuración de ODK Collect, que hacen de esta aplicación una potente herramienta para la recolección de información mediante dispositivos móviles, tanto para usuarios/as con conocimientos avanzados como para quienes disponen de menos experiencia en el manejo de *smartphones* o tabletas.
+Collect permite personalizar muchos aspectos relevantes de la configuración y de la apariencia e incluso la posibilidad de replicarla rápidamente de unos dispositivos a otros. 
+Una vez familiarizados con el manejo de Collect, en las siguientes unidades se entrará ya en la creación de nuestros propios formularios y su visualización a través de nuestros dispositivos. 
