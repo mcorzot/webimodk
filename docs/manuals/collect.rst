@@ -3,7 +3,7 @@ ODK Collect
 
 .. admonition:: Conocimientos previos
 
-	Para la comprensión de este apartado es necesario conocer de forma básica qué es Open Data Kit y para qué sirven las diferentes herramientas que la componen. Aunque se irá paso a paso y con detalle, Collect es una aplicación que funciona en teléfonos con el sistema operativo Android por lo que debemos familiarizarnos con la instalación, configuración y uso de aplicaciones en este entorno.
+	Para la comprensión de este apartado es necesario conocer de forma básica qué es Open Data Kit y para qué sirven las diferentes herramientas que la componen. Aunque se irá paso a paso y con detalle, Collect es una aplicación que funciona en dispositivos con el sistema operativo Android por lo que debemos familiarizarnos con la instalación, configuración y uso de aplicaciones en este entorno.
 
 ¿Qué es ODK Collect?
 --------------------
