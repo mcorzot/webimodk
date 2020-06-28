@@ -53,12 +53,14 @@ Las opciones de “Cambiar la configuración” son de gran importancia ya que n
 Las opciones de configuración se dividen en cuatro grandes grupos que se enumeran a continuación:
 
 - Servidor - Usuario (1), para configurar el servidor y los parámetros de acceso.
-- Interfaz de usuario (2), donde se ofrecen opciones como el idioma, tamaño del texto y mapas.
-- Manejo de formularios (3), con opciones sobre el envío, rellenado e importación.
-- Metadatos del formulario (4), para indicar el identificador de usuario/a o del dispositivo.
+- Interfaz de usuario (2), donde se pueden personalizar opciones visuales de la aplicación, a destacar el idioma o tamaño del texto, además de otras opciones referentes a la navegación.
+- Mapas (3), que contiene opciones exclusivas a cartografía.
+- Manejo de formularios (4), con opciones sobre el envío, rellenado e importación.
+- Metadatos del formulario (5), para indicar el identificador de usuario/a o del dispositivo.
 
-.. figure:: /media/cambiarconf3.jpg
+.. figure:: /media/cambiarconf3.png
    :align: center
+   :width: 280
 
 A continuación entramos un poco más en detalle en cada una de estas opciones y repasamos sus principales funcionalidades.
 
