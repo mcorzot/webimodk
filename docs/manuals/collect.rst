@@ -87,7 +87,7 @@ Interfaz de usuario
 Permite personalizar aspectos de la interfaz de la aplicación.
 Además del **idioma de la aplicación** (1), no el del formulario, y el tamaño del **texto** (2) destaca la posibilidad de elegir la **forma en que se pasa de una pantalla a otra** en los formularios (3) y la posibilidad de elegir una **imagen o logo** para que se visualice al iniciar la aplicación (4).
 
-.. figure:: /media/confinterfezusuario.jpg
+.. figure:: /media/confinterfazusuario.jpg
    :align: center
 
 Manejo de formularios
