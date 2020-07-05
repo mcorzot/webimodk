@@ -79,16 +79,25 @@ Para acceder a este tipo de servidor será necesario confirmar nuestros parámet
 
 .. admonition:: Presta atención
 
-	Los parámetros de acceso al servidor sobre el que se está trabajando deberán ser facilitados por el administrador de sistema o por el responsable del proceso de recolección de datos. En próximas unidades se explicará cómo crear un servidor propio.
+	Los parámetros de acceso al servidor sobre el que se está trabajando deberán ser facilitados por alguien con permisos para administrar el sistema o por la persona responsable del proceso de recolección de datos. En próximas unidades se explicará cómo crear un servidor propio.
 
 Interfaz de usuario
 ^^^^^^^^^^^^^^^^^^^
 
 Permite personalizar aspectos de la interfaz de la aplicación.
-Además del **idioma de la aplicación** (1), no el del formulario, y el tamaño del **texto** (2) destaca la posibilidad de elegir la **forma en que se pasa de una pantalla a otra** en los formularios (3) y la posibilidad de elegir una **imagen o logo** para que se visualice al iniciar la aplicación (4).
+Además del **idioma de la aplicación** (1) --no el del formulario-- y el tamaño del **texto** (2), destaca la posibilidad de elegir la **forma en que se pasa de una pantalla a otra** en los formularios (3), y la posibilidad de elegir una **imagen o logo** para que se visualice al iniciar la aplicación (4).
 
 .. figure:: /media/confinterfazusuario.jpg
    :align: center
+
+Mapas
+^^^^^
+
+En esta pantalla se pueden cambiar todas las opciones referentes a cartografía, tales como la fuente que se usará para mostrar los mapas --Google, OpenStreetMap, etc.-- (1); el estilo de mapa, en caso de que la fuente seleccionada disponga de varias opciones (2), y archivos de capas a elegir entre los presentes en el dispositivo, si los hubiera (3).
+
+.. figure:: /media/mapas.png
+   :align: center
+   :width: 280
 
 Manejo de formularios
 ^^^^^^^^^^^^^^^^^^^^^
